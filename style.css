@@ -1,0 +1,118 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: blue;
+  background: url(background.jpg) no-repeat center/cover;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 800px;
+}
+
+h1 {
+  text-align: center;
+  font-family: cursive;
+}
+
+#task-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#task-input {
+  flex-grow: 1;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+
+button {
+  padding: 8px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #ede5e5;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.completed {
+  text-decoration: none;
+  color: #555;
+  background-color: greenyellow;
+}
+
+
+#filter {
+  margin-top: 10px;
+}
+
+label {
+  margin-right: 10px;
+  font-weight: bold;
+  border: 1px solid blue;
+  padding: 4px;
+}
+
+#filter-select {
+  height: 30px;
+  width: 225px;
+  background-color: #a9a1a17d;
+  font-size: 16px;
+}
+
+.task-btn {
+  background-color: rgb(26, 31, 92);
+  border-radius: 3px;
+  color: white;
+  border: 1px solid black;
+
+}
+
+.task-btn:hover {
+  background: rgb(139, 180, 235);
+  color: black;
+}
+
+.del-btn:hover {
+  background-color: red;
+}
+
+.complete-btn:hover {
+  background-color: rgb(157, 241, 31);
+}
+
+.editing {
+  border: none;
+  outline: none;
+}
+
+.edit-btn:hover {
+  background-color: rgb(191, 234, 247);
+}
+
+.save-btn:hover {
+  background-color: greenyellow;
+}
+
+.task-time {
+  font-size: 12px;
+}
